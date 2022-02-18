@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --mans: 'PT Sans', sans-seri
+}
+
+header {
+    background-color: #57614d;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 33px;
+}
+
+header ul li a {
+    font: bold 13px var(--mans);
+    text-decoration: none;
+    color: #8a9680;
+    line-height: 24px;
+    text-align: right;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(0, 0, 0, 0.3));
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+.mobile-menu i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* header css end */
+
+.third {
+    background-color: #d9d9d9;
+}
+
+.third p {
+    font: normal 30px var(--mans);
+    width: 307px;
+    line-height: 48px;
+    color: #4e5944;
+    text-align: center;
+}
+
+.card {
+    background-color: #e9e9e9;
+}
+
+
+/* third css end */
+
+
+/* promise css strat */
+
+.three {
+    background-color: #e3e3e3;
+}
+
+.three h1 {
+    font: normal 32px var(--mans);
+    line-height: 24px;
+    color: #57614e;
+}
+
+.three p {
+    margin-top: 37px;
+}
+
+
+/* three css end */
+
+
+/* choose css start */
+
+.choose {
+    background-color: #d9d9d9;
+}
+
+.choose h1 {
+    font: normal 19px var(--mans);
+    height: 26px;
+    line-height: 30px;
+    color: #57614e;
+}
+
+.choose h4 {
+    font: bold 14px var(--mans);
+    line-height: 24px;
+    color: #626262;
+    padding-top: 40px;
+}
+
+.choose p {
+    font: normal 14px var(--mans);
+    color: #626262;
+    width: 200px;
+    line-height: 24px;
+}
+
+
+/* choose css end */
+
+
+/* latest css start */
+
+.latest {
+    background-color: #d9d9d9;
+}
+
+.latest h5 {
+    font: bold 14px var(--mans);
+    width: 275px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.latest p {
+    font: normal 14px var(--mans);
+    width: 275px;
+    line-height: 24px;
+    color: #626262;
+}
+
+
+/* latest css end */
+
+
+/* reserve css start */
+
+.reserve {
+    background-color: #4d5943;
+}
+
+.fcbk {
+    color: blue;
+    cursor: pointer;
+}
+
+.twtr {
+    color: red;
+    cursor: pointer;
+}
+
+.reserve p {
+    font: normal 11px var(--mans);
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #e2e2e2;
+    text-align: right;
+}
